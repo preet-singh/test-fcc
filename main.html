@@ -1,5 +1,12 @@
 <h1>hello world</h1>
 
 <label>what is your name?</label>
-<input></input>
+<input id="#inputName1"></input>
 <button>Submit</button>
+<script>
+  document.querySelector(
+    "#inputName1"
+  ).addEventListener(function (evt) {
+    window.alert("hello " evt.target.value);
+  })
+</script>
