@@ -2,10 +2,10 @@
 
 <label>what is your name?</label>
 <input id="inputName1"></input>
-<button>Submit</button>
+<button id="submit1">Submit</button>
 <script>
   document.querySelector(
-    "#inputName1"
+    "#submit1"
   ).addEventListener("click", function (evt) {
     window.alert("hello " + evt.target.value);
   });
